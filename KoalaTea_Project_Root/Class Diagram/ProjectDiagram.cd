@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="KoalaTea_Project_Root.FormFrontPage" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACEAABBAAACAABACAAAQAAAEAEBPBAAAIAA=</HashCode>
+      <FileName>FormFrontPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KoalaTea_Project_Root.FormLoginMenu" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgAIAAAAACAAgBAAgACAAEgCAAIAAAAAAAAAAACIAGA=</HashCode>
+      <FileName>FormLoginMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KoalaTea_Project_Root.FormOrderPage" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEACAAKACAAAAAACQEAQSiKgEUAAQAFCBBAAAARA=</HashCode>
+      <FileName>FormOrderPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KoalaTea_Project_Root.FormTableLayoutDineIn" Collapsed="true">
+    <Position X="1.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAEAACAAAAAAAACAAAACAAAAAAAAAAEAAABAwAA=</HashCode>
+      <FileName>FormTableLayoutDineIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KoalaTea_Project_Root.Program" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KoalaTea_Project_Root.Properties.Resources" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAgAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KoalaTea_Project_Root.Properties.Settings" Collapsed="true">
+    <Position X="1.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

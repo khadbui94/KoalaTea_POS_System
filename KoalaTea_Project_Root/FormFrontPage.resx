@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;btnEdit_frontPage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="main_Button_CheckIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 124</value>
+  </data>
+  <data name="gboxHeader_FrontPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;main_Button_Edit.Name" xml:space="preserve">
+    <value>main_Button_Edit</value>
+  </data>
+  <data name="main_Button_DineIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 124</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="main_Button_Exit.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="&gt;&gt;panelFrontPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxContent_FrontPage.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="main_Button_Exit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 124</value>
+  </data>
+  <data name="&gt;&gt;btnTakeOut_FormFrontPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="main_Button_CheckIn.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnLogOut_frontPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>698, 286</value>
+  </data>
+  <data name="&gt;&gt;main_Button_CheckIn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCheckIn_frontPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>698, 37</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="main_Button_DineIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 53</value>
+  </data>
+  <data name="&gt;&gt;main_Button_DineIn.Parent" xml:space="preserve">
+    <value>panelFrontPage</value>
+  </data>
+  <data name="panelFrontPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 29</value>
+  </data>
+  <data name="&gt;&gt;btnEdit_frontPage.Name" xml:space="preserve">
+    <value>btnEdit_frontPage</value>
+  </data>
+  <data name="btnDineIn_frontPage.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="main_Button_Edit.Text" xml:space="preserve">
+    <value>Edit Items</value>
+  </data>
+  <data name="main_Button_Edit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 21.75pt</value>
+  </data>
+  <data name="&gt;&gt;panelFrontPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FormFrontPage</value>
+  </data>
+  <data name="main_Button_DineIn.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="panelFrontPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>574, 335</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;main_Button_Reserved.Parent" xml:space="preserve">
+    <value>panelFrontPage</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;main_Button_Edit.Parent" xml:space="preserve">
+    <value>panelFrontPage</value>
+  </data>
+  <data name="&gt;&gt;btnDineIn_frontPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnDineIn_frontPage.Parent" xml:space="preserve">
+    <value>panelFrontPage</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="main_Button_DineIn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="main_Button_Edit.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="main_Button_TakeOut.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnTakeOut_FormFrontPage.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="gboxContent_FrontPage.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;btnTakeOut_FormFrontPage.Name" xml:space="preserve">
+    <value>btnTakeOut_FormFrontPage</value>
+  </data>
+  <data name="&gt;&gt;btnEdit_frontPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="main_Button_CheckIn.Text" xml:space="preserve">
+    <value>Check In</value>
+  </data>
+  <data name="&gt;&gt;gboxContent_FrontPage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCheckIn_frontPage.Parent" xml:space="preserve">
+    <value>panelFrontPage</value>
+  </data>
+  <data name="&gt;&gt;btnDineIn_frontPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnTakeOut_FormFrontPage.Text" xml:space="preserve">
+    <value>Take Out</value>
+  </data>
+  <data name="main_Button_Exit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 183</value>
+  </data>
+  <data name="btnEdit_frontPage.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>gboxHeader_FrontPage</value>
+  </data>
+  <data name="&gt;&gt;main_Button_CheckIn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnTakeOut_FormFrontPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 53</value>
+  </data>
+  <data name="main_Button_Edit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 183</value>
+  </data>
+  <data name="&gt;&gt;btnReserved_frontPage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;main_Button_Edit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gboxHeader_FrontPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 73</value>
+  </data>
+  <data name="main_Button_Reserved.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 124</value>
+  </data>
+  <data name="panelFrontPage.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnEdit_frontPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 286</value>
+  </data>
+  <data name="&gt;&gt;main_Button_Reserved.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;main_Button_Exit.Name" xml:space="preserve">
+    <value>main_Button_Exit</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 9</value>
+  </data>
+  <data name="btnReserved_frontPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 286</value>
+  </data>
+  <data name="&gt;&gt;main_Button_TakeOut.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnCheckIn_frontPage.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormFrontPage</value>
+  </data>
+  <data name="&gt;&gt;gboxContent_FrontPage.Name" xml:space="preserve">
+    <value>gboxContent_FrontPage</value>
+  </data>
+  <data name="&gt;&gt;btnReserved_frontPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxHeader_FrontPage.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="main_Button_DineIn.Text" xml:space="preserve">
+    <value>Dine In</value>
+  </data>
+  <data name="main_Button_CheckIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 53</value>
+  </data>
+  <data name="&gt;&gt;gboxHeader_FrontPage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;main_Button_TakeOut.Name" xml:space="preserve">
+    <value>main_Button_TakeOut</value>
+  </data>
+  <data name="btnLogOut_frontPage.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;main_Button_Exit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblMainMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;gboxContent_FrontPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxHeader_FrontPage.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="main_Button_DineIn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 21.75pt</value>
+  </data>
+  <data name="&gt;&gt;panelFrontPage.Name" xml:space="preserve">
+    <value>panelFrontPage</value>
+  </data>
+  <data name="&gt;&gt;main_Button_CheckIn.Parent" xml:space="preserve">
+    <value>panelFrontPage</value>
+  </data>
+  <data name="&gt;&gt;lblMainMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCheckIn_frontPage.Name" xml:space="preserve">
+    <value>btnCheckIn_frontPage</value>
+  </data>
+  <data name="&gt;&gt;gboxContent_FrontPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnReserved_frontPage.Name" xml:space="preserve">
+    <value>btnReserved_frontPage</value>
+  </data>
+  <data name="&gt;&gt;btnLogOut_frontPage.Name" xml:space="preserve">
+    <value>btnLogOut_frontPage</value>
+  </data>
+  <data name="&gt;&gt;main_Button_DineIn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTakeOut_FormFrontPage.Parent" xml:space="preserve">
+    <value>panelFrontPage</value>
+  </data>
+  <data name="main_Button_Exit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 21.75pt</value>
+  </data>
+  <data name="lblMainMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>532, 9</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnTakeOut_FormFrontPage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 21.75pt</value>
+  </data>
+  <data name="&gt;&gt;btnEdit_frontPage.Parent" xml:space="preserve">
+    <value>panelFrontPage</value>
+  </data>
+  <data name="&gt;&gt;lblMainMenu.Name" xml:space="preserve">
+    <value>lblMainMenu</value>
+  </data>
+  <data name="&gt;&gt;main_Button_Edit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxContent_FrontPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 387</value>
+  </data>
+  <data name="&gt;&gt;btnLogOut_frontPage.Parent" xml:space="preserve">
+    <value>panelFrontPage</value>
+  </data>
+  <data name="&gt;&gt;btnLogOut_frontPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="main_Button_TakeOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnTakeOut_FormFrontPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 124</value>
+  </data>
+  <data name="main_Button_TakeOut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;main_Button_Exit.Parent" xml:space="preserve">
+    <value>panelFrontPage</value>
+  </data>
+  <data name="main_Button_Reserved.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;gboxHeader_FrontPage.Name" xml:space="preserve">
+    <value>gboxHeader_FrontPage</value>
+  </data>
+  <data name="&gt;&gt;panelFrontPage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTakeOut_FormFrontPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="main_Button_Edit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 124</value>
+  </data>
+  <data name="&gt;&gt;lblMainMenu.Parent" xml:space="preserve">
+    <value>gboxHeader_FrontPage</value>
+  </data>
+  <data name="&gt;&gt;btnReserved_frontPage.Parent" xml:space="preserve">
+    <value>panelFrontPage</value>
+  </data>
+  <data name="main_Button_Edit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="main_Button_Reserved.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="gboxContent_FrontPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 174</value>
+  </data>
+  <data name="&gt;&gt;main_Button_Reserved.Name" xml:space="preserve">
+    <value>main_Button_Reserved</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 55</value>
+  </data>
+  <data name="&gt;&gt;main_Button_TakeOut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCheckIn_frontPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Main Menu</value>
+  </data>
+  <data name="btnReserved_frontPage.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;main_Button_CheckIn.Name" xml:space="preserve">
+    <value>main_Button_CheckIn</value>
+  </data>
+  <data name="main_Button_Exit.Text" xml:space="preserve">
+    <value>Log-Out</value>
+  </data>
+  <data name="&gt;&gt;main_Button_DineIn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnDineIn_frontPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 37</value>
+  </data>
+  <data name="&gt;&gt;btnCheckIn_frontPage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;main_Button_Reserved.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;main_Button_Exit.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>784, 561</value>
+  </data>
+  <data name="&gt;&gt;btnDineIn_frontPage.Name" xml:space="preserve">
+    <value>btnDineIn_frontPage</value>
+  </data>
+  <data name="&gt;&gt;lblMainMenu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnTakeOut_FormFrontPage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 36pt, style=Bold</value>
+  </data>
+  <data name="main_Button_Reserved.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 183</value>
+  </data>
+  <data name="main_Button_CheckIn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 21.75pt</value>
+  </data>
+  <data name="&gt;&gt;main_Button_TakeOut.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="main_Button_Reserved.Text" xml:space="preserve">
+    <value>Reserved</value>
+  </data>
+  <data name="main_Button_Reserved.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 21.75pt</value>
+  </data>
+  <data name="&gt;&gt;gboxHeader_FrontPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="main_Button_Exit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="main_Button_CheckIn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;main_Button_DineIn.Name" xml:space="preserve">
+    <value>main_Button_DineIn</value>
+  </data>
+  <data name="&gt;&gt;gboxHeader_FrontPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnLogOut_frontPage.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
+</root>

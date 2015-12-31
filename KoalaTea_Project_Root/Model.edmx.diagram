@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7ab4e65710804d86ab6c1a511ca6f96e" Name="Diagram1" ZoomLevel="121">
+        <EntityTypeShape EntityType="DatabaseModel.tblCategory" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblProduct" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblTable" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblTransaction" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblTransactionItem" Width="1.5" PointX="6.125" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblUser" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <AssociationConnector Association="DatabaseModel.tblUsertblTable" />
+        <AssociationConnector Association="DatabaseModel.tblTabletblTransactionItem" />
+        <AssociationConnector Association="DatabaseModel.tblTransactiontblTransactionItem" />
+        <AssociationConnector Association="DatabaseModel.tblProducttblTransactionItem" />
+        <AssociationConnector Association="DatabaseModel.tblCategorytblProduct" />
+        <EntityTypeShape EntityType="DatabaseModel.tblPromotion" Width="1.5" PointX="5.5" PointY="1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

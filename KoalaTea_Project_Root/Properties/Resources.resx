@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_08___Phoenix_Claws" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\08 - Phoenix Claws.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_13___Jin_Deui_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13 - Jin Deui_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_24___Sesame_Seed_Ball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\24 - Sesame Seed Ball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_18___Congee_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18 - Congee_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_09___Cheon_Fun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\09 - Cheon Fun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15___Fun_Guo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15 - Fun Guo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10___Taro_Cake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 - Taro Cake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_22___Sou" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\22 - Sou.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_14___Roast_Duck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14 - Roast Duck.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="admin_list" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\admin_list.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="_05___Xiao_Long_Bao_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\05 - Xiao Long Bao_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_08___Phoenix_Claws_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\08 - Phoenix Claws_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_02___Shumai_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\02 - Shumai_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_35___Lemonade_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\35 - Lemonade_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_04___Cha_Siu_Bao_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\04 - Cha Siu Bao_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_33___Sprite_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\33 - Sprite_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_09___Cheon_Fun_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\09 - Cheon Fun_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_28___Iced_Coffee_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\28 - Iced Coffee_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_31___Oolong_Tea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\31 - Oolong Tea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_30___Green_Tea_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\30 - Green Tea_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_28___Iced_Coffee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\28 - Iced Coffee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_11___Turnip_Cake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11 - Turnip Cake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10___Taro_Cake_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 - Taro Cake_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_06___Crab_Ball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\06 - Crab Ball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_25___Flam_Pudding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\25 - Flam Pudding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_16___Jiaozi_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16 - Jiaozi_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_37___Water_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\37 - Water_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_02___Shumai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\02 - Shumai.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15___Fun_Guo_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15 - Fun Guo_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_01__Hakaw_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01- Hakaw_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_25___Flam_Pudding_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\25 - Flam Pudding_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_35___Lemonade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\35 - Lemonade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrow_Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrow-Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_36___Root_Beer_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\36 - Root Beer_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_23___Taro_Dumpling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\23 - Taro Dumpling.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_32___Coke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\32 - Coke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrow_Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrow-Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_31___Oolong_Tea_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\31 - Oolong Tea_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_04___Cha_Siu_Bao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\04 - Cha Siu Bao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_34___Orange_Fanta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\34 - Orange Fanta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_17___Spare_Ribs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\17 - Spare Ribs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_07___Honey_Walnut_Shrimp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\07 - Honey Walnut Shrimp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_29___Chrysanthenum_Tea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\29 - Chrysanthenum Tea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_26___Jasmine_Tea_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\26 - Jasmine Tea_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnCloseUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnCloseUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_13___Jin_Deui" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13 - Jin Deui.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_37___Water" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\37 - Water.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_16___Jiaozi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16 - Jiaozi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_14___Roast_Duck_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14 - Roast Duck_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_20___Egg_Tart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20 - Egg Tart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_19___Tofu_Skin_Roll_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\19 - Tofu Skin Roll_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_34___Orange_Fanta_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\34 - Orange Fanta_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_23___Taro_Dumpling_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\23 - Taro Dumpling_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_18___Congee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18 - Congee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_32___Coke_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\32 - Coke_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_17___Spare_Ribs_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\17 - Spare Ribs_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_20___Egg_Tart_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20 - Egg Tart_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_27___Thai_Tea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\27 - Thai Tea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_03___Spring_Roll_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\03 - Spring Roll_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_21___Sweet_Tofu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21 - Sweet Tofu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_07___Honey_Walnut_Shrimp_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\07 - Honey Walnut Shrimp_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_19___Tofu_Skin_Roll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\19 - Tofu Skin Roll.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_24___Sesame_Seed_Ball_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\24 - Sesame Seed Ball_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnBackSpace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnBackSpace.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_29___Chrysanthenum_Tea_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\29 - Chrysanthenum Tea_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12___Steamed_Meatball_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12 - Steamed Meatball_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="employee_list" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\employee_list.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="_30___Green_Tea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\30 - Green Tea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12___Steamed_Meatball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12 - Steamed Meatball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_27___Thai_Tea_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\27 - Thai Tea_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_36___Root_Beer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\36 - Root Beer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_11___Turnip_Cake_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11 - Turnip Cake_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main_background_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main_background_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_22___Sou_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\22 - Sou_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_03___Spring_Roll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\03 - Spring Roll.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_06___Crab_Ball_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\06 - Crab Ball_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dining" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dining.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_05___Xiao_Long_Bao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\05 - Xiao Long Bao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_33___Sprite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\33 - Sprite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="koalatea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\koalatea.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_21___Sweet_Tofu_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21 - Sweet Tofu_Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_26___Jasmine_Tea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\26 - Jasmine Tea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="receiptIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\receiptIcon.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paymentoption3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paymentoption3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

@@ -1,0 +1,10 @@
+﻿computer Joke_9
+1000 ok
+B2000 somethinghere
+C3000 anotherpassword
+D4000 what?
+E5000 testingpw
+F6000 holyhotdog
+G7000 koalatea
+H8000 koalawithatea
+I9000 WOW

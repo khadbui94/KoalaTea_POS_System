@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DE057C73-9C35-437E-9C39-21BBF45720D8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KoalaTea_Project_Root</RootNamespace>
+    <AssemblyName>KoalaTea</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Kha\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>01E2FB3A9CE4955F5B6960972E6847F41FFC8C14</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>KoalaTea_Project_Root_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>koalateaicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\FormAddEditPromoCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\FormAddEditPromoCode.Designer.cs">
+      <DependentUpon>FormAddEditPromoCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FormDisplayStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\FormDisplayStat.Designer.cs">
+      <DependentUpon>FormDisplayStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FormAddEditEmployees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\FormAddEditEmployees.Designer.cs">
+      <DependentUpon>FormAddEditEmployees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FormAddItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\FormAddItems.Designer.cs">
+      <DependentUpon>FormAddItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FormAdminFrontPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\FormAdminFrontPage.Designer.cs">
+      <DependentUpon>FormAdminFrontPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FormEditDeleteItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\FormEditDeleteItems.Designer.cs">
+      <DependentUpon>FormEditDeleteItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditQuantity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditQuantity.Designer.cs">
+      <DependentUpon>FormEditQuantity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormError.Designer.cs">
+      <DependentUpon>FormError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFrontPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFrontPage.Designer.cs">
+      <DependentUpon>FormFrontPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKeyboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKeyboard.Designer.cs">
+      <DependentUpon>FormKeyboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLoginMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLoginMenu.Designer.cs">
+      <DependentUpon>FormLoginMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOrderPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOrderPage.designer.cs">
+      <DependentUpon>FormOrderPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPayment.Designer.cs">
+      <DependentUpon>FormPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReceipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReceipt.Designer.cs">
+      <DependentUpon>FormReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTableLayout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTableLayout.designer.cs">
+      <DependentUpon>FormTableLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTestCases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTestCases.Designer.cs">
+      <DependentUpon>FormTestCases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCalculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalculator.Designer.cs">
+      <DependentUpon>FormCalculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="tblCategory.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProduct.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPromotion.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTable.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTransaction.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTransactionItem.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblUser.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin\FormAddEditPromoCode.resx">
+      <DependentUpon>FormAddEditPromoCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\FormDisplayStat.resx">
+      <DependentUpon>FormDisplayStat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\FormAddEditEmployees.resx">
+      <DependentUpon>FormAddEditEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\FormAddItems.resx">
+      <DependentUpon>FormAddItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\FormAdminFrontPage.resx">
+      <DependentUpon>FormAdminFrontPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\FormEditDeleteItems.resx">
+      <DependentUpon>FormEditDeleteItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditQuantity.resx">
+      <DependentUpon>FormEditQuantity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormError.resx">
+      <DependentUpon>FormError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFrontPage.en.resx">
+      <DependentUpon>FormFrontPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFrontPage.resx">
+      <DependentUpon>FormFrontPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKeyboard.resx">
+      <DependentUpon>FormKeyboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLoginMenu.resx">
+      <DependentUpon>FormLoginMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOrderPage.resx">
+      <DependentUpon>FormOrderPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPayment.resx">
+      <DependentUpon>FormPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReceipt.resx">
+      <DependentUpon>FormReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTableLayout.resx">
+      <DependentUpon>FormTableLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTestCases.resx">
+      <DependentUpon>FormTestCases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCalculator.resx">
+      <DependentUpon>FormCalculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="ClassDiagram8.cd" />
+    <None Include="DatabaseDataSet.xsc">
+      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DatabaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DatabaseDataSet.xss">
+      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KoalaTea_Project_Root_TemporaryKey.pfx" />
+    <EntityDeploy Include="Model.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model.edmx</DependentUpon>
+      <LastGenOutput>Model.Context.cs</LastGenOutput>
+    </None>
+    <None Include="Model.edmx.diagram">
+      <DependentUpon>Model.edmx</DependentUpon>
+    </None>
+    <None Include="Model.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model.edmx</DependentUpon>
+      <LastGenOutput>Model.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_list.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\employee_list.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\main_background_1.jpg" />
+    <None Include="Resources\dining.jpg" />
+    <Content Include="Database.mdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database_log.ldf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <DependentUpon>Database.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\00 - Hakaw.png" />
+    <None Include="Resources\00 - Hakaw_Blue.png" />
+    <None Include="Resources\01 - Shumai.png" />
+    <None Include="Resources\01 - Shumai_Blue.png" />
+    <None Include="Resources\03 - Spring Roll.png" />
+    <None Include="Resources\03 - Spring Roll_Blue.png" />
+    <None Include="Resources\04 - Cha Siu Bao.png" />
+    <None Include="Resources\04 - Cha Siu Bao_Blue.png" />
+    <None Include="Resources\05 - Xiao Long Bao.png" />
+    <None Include="Resources\05 - Xiao Long Bao_Blue.png" />
+    <None Include="Resources\06 - Crab Ball.png" />
+    <None Include="Resources\06 - Crab Ball_Blue.png" />
+    <None Include="Resources\07 - Honey Walnut Shrimp.png" />
+    <None Include="Resources\07 - Honey Walnut Shrimp_Blue.png" />
+    <None Include="Resources\08 - Phoenix Claws.png" />
+    <None Include="Resources\08 - Phoenix Claws_Blue.png" />
+    <None Include="Resources\09 - Cheon Fun.png" />
+    <None Include="Resources\09 - Cheon Fun_Blue.png" />
+    <None Include="Resources\10 - Taro Cake.png" />
+    <None Include="Resources\10 - Taro Cake_Blue.png" />
+    <None Include="Resources\11 - Turnip Cake.png" />
+    <None Include="Resources\11 - Turnip Cake_Blue.png" />
+    <None Include="Resources\12 - Steamed Meatball.png" />
+    <None Include="Resources\12 - Steamed Meatball_Blue.png" />
+    <None Include="Resources\13 - Jin Deui.png" />
+    <None Include="Resources\13 - Jin Deui_Blue.png" />
+    <None Include="Resources\14 - Roast Duck.png" />
+    <None Include="Resources\14 - Roast Duck_Blue.png" />
+    <None Include="Resources\15 - Fun Guo.png" />
+    <None Include="Resources\15 - Fun Guo_Blue.png" />
+    <None Include="Resources\16 - Jiaozi.png" />
+    <None Include="Resources\16 - Jiaozi_Blue.png" />
+    <None Include="Resources\17 - Spare Ribs.png" />
+    <None Include="Resources\17 - Spare Ribs_Blue.png" />
+    <None Include="Resources\18 - Congee.png" />
+    <None Include="Resources\18 - Congee_Blue.png" />
+    <None Include="Resources\19 - Tofu Skin Roll.png" />
+    <None Include="Resources\19 - Tofu Skin Roll_Blue.png" />
+    <None Include="Resources\20 - Egg Tart.png" />
+    <None Include="Resources\20 - Egg Tart_Blue.png" />
+    <None Include="Resources\21 - Sweet Tofu.png" />
+    <None Include="Resources\21 - Sweet Tofu_Blue.png" />
+    <None Include="Resources\22 - Sou.png" />
+    <None Include="Resources\22 - Sou_Blue.png" />
+    <None Include="Resources\23 - Taro Dumpling.png" />
+    <None Include="Resources\23 - Taro Dumpling_Blue.png" />
+    <None Include="Resources\24 - Sesame Seed Ball.png" />
+    <None Include="Resources\24 - Sesame Seed Ball_Blue.png" />
+    <None Include="Resources\25 - Flam Pudding.png" />
+    <None Include="Resources\25 - Flam Pudding_Blue.png" />
+    <None Include="Resources\26 - Jasmine Tea.png" />
+    <None Include="Resources\26 - Jasmine Tea_Blue.png" />
+    <None Include="Resources\27 - Thai Tea.png" />
+    <None Include="Resources\27 - Thai Tea_Blue.png" />
+    <None Include="Resources\28 - Iced Coffee.png" />
+    <None Include="Resources\28 - Iced Coffee_Blue.png" />
+    <None Include="Resources\29 - Chrysanthenum Tea.png" />
+    <None Include="Resources\29 - Chrysanthenum Tea_Blue.png" />
+    <None Include="Resources\30 - Green Tea.png" />
+    <None Include="Resources\30 - Green Tea_Blue.png" />
+    <None Include="Resources\31 - Oolong Tea.png" />
+    <None Include="Resources\31 - Oolong Tea_Blue.png" />
+    <None Include="Resources\32 - Coke.png" />
+    <None Include="Resources\32 - Coke_Blue.png" />
+    <None Include="Resources\33 - Sprite.png" />
+    <None Include="Resources\33 - Sprite_Blue.png" />
+    <None Include="Resources\34 - Orange Fanta.png" />
+    <None Include="Resources\34 - Orange Fanta_Blue.png" />
+    <None Include="Resources\35 - Lemonade.png" />
+    <None Include="Resources\35 - Lemonade_Blue.png" />
+    <None Include="Resources\36 - Root Beer.png" />
+    <None Include="Resources\36 - Root Beer_Blue.png" />
+    <None Include="Resources\37 - Water.png" />
+    <None Include="Resources\37 - Water_Blue.png" />
+    <None Include="Resources\Arrow-Left.png" />
+    <None Include="Resources\Arrow-Right.png" />
+    <None Include="Resources\btnBackSpace.png" />
+    <None Include="Resources\btnCloseUp.png" />
+    <None Include="Resources\btnBackSpace1.png" />
+    <None Include="Resources\koalatea.jpg" />
+    <Content Include="koalateaicon.ico" />
+    <Content Include="Resources\paymentoption3.png" />
+    <Content Include="TestCases\login_testcases.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
